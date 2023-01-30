@@ -1,0 +1,12 @@
+Voraussetzungen:
+Docker ist installiert
+
+Benutzung:
+Öffne main.py file und füge unter der Zeile "TODO" die bekannten wörter ein, wie im Beispiel dort gezeigt
+(Zeile 24)
+
+führe anschließend folgende Befehle aus:
+docker build -t crypto .
+docker run -it crypto /bin/bash
+
+diese befehle müssen jedes mal neu ausgeführt werden, wenn Änderungen in main.py gemacht werden.
